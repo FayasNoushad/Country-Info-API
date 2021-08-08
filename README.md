@@ -15,3 +15,10 @@ A country information finder API.
 ```
 https://countryinfo.api.fayas.me/?query=<country-name>
 ```
+
+---
+
+#### (C) [FayasNoushad](https://github.com/FayasNoushad)
+#### All Rights Reserved
+
+---
