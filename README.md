@@ -2,6 +2,7 @@
 
 A country information finder API.
 
+---
 
 #### Please add your 🌟 for the repository to support the project and please follow me
 
