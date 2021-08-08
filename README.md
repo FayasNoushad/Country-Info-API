@@ -10,7 +10,7 @@ A country information finder API.
 
 ---
 
-## Usage:
+## Usage
 
 ```
 https://countryinfo.api.fayas.me/?query=<country-name>
