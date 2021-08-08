@@ -18,7 +18,7 @@ https://countryinfo.api.fayas.me/?query=<country-name>
 
 ---
 
-#### © [FayasNoushad](https://github.com/FayasNoushad)
+#### (C) [FayasNoushad](https://github.com/FayasNoushad)
 #### All Rights Reserved
 
 ---
