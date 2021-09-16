@@ -9,13 +9,13 @@
     ],
     "redirects": [
         {
+            "source": "/(.*)",
+            "destination": "/app.py"
+        },
+        {
             "source": "/",
             "destination": "https://github.com/FayasNoushad/Country-Info-API",
             "permanent": false
-        },
-        {
-            "source": "/(.*)",
-            "destination": "/app.py"
         }
     ]
 }
