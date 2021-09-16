@@ -16,7 +16,7 @@ def main():
     if request.args.get('query'):
         query = request.args.get('query')
     else:
-        return redirect("https://github.com/FayasNoushad/Country-Info-API")
+        return "Documentation:- https://github.com/FayasNoushad/Country-Info-API"
     country = CountryInfo(query)
     info = country.info()
     if info is not None:
