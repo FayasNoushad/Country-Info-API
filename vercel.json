@@ -10,7 +10,8 @@
     "redirects": [
         {
             "source": "/",
-            "destination": "https://github.com/FayasNoushad/Country-Info-API"
+            "destination": "https://github.com/FayasNoushad/Country-Info-API",
+            "permanent": false
         },
         {
             "source": "/(.*)",
