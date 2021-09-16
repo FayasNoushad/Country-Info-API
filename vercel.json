@@ -1,0 +1,22 @@
+{
+    "name": "Country-Info-API",
+    "version": 2,
+    "builds": [
+        {
+            "src": "*py",
+            "use": "@liudonghua123/now-flask"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "app.py"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/",
+            "dest": "https://github.com/FayasNoushad/Country-Info-API"
+        }
+    ]
+}
