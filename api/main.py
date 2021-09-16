@@ -4,11 +4,12 @@
 # All rights reserved by FayasNoushad
 # License -> https://github.com/FayasNoushad/Country-Info-API/blob/main/LICENSE
 
-from flask import Flask, redirect, request, jsonify, json
+from flask import Flask, Blueprint, redirect, request, jsonify, json
 from countryinfo import CountryInfo
 
 
 app = Flask(__name__)
+api = Blueprint("serverless_handler", __name__)
 
 
 @app.route("/")
