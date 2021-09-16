@@ -1,6 +1,6 @@
 # Country-Info-API
 
-A country information finder API.
+A country information finder application programming interface ( API )
 
 ---
 
