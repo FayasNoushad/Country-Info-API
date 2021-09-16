@@ -16,7 +16,7 @@
     "redirects": [
         {
             "source": "/",
-            "dest": "https://github.com/FayasNoushad/Country-Info-API"
+            "destination": "https://github.com/FayasNoushad/Country-Info-API"
         }
     ]
 }
