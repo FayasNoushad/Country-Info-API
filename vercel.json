@@ -14,8 +14,7 @@
         },
         {
             "source": "/",
-            "destination": "https://github.com/FayasNoushad/Country-Info-API",
-            "permanent": false
+            "destination": "https://github.com/FayasNoushad/Country-Info-API"
         }
     ]
 }
