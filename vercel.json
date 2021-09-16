@@ -7,14 +7,10 @@
             "use": "@liudonghua123/now-flask"
         }
     ],
-    "redirects": [
+    "routes": [
         {
-            "source": "/(.*)",
-            "destination": "/app.py"
-        },
-        {
-            "source": "/",
-            "destination": "https://github.com/FayasNoushad/Country-Info-API"
+            "src": "/(.*)",
+            "dest": "app.py"
         }
     ]
 }
