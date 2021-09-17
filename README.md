@@ -27,7 +27,7 @@ python3 app.py
 ## Usage
 
 ```
-https://countryinfo.api.fayas.me/?query=<country-name>
+https://country.api.fayas.me/?query=<country-name>
 ```
 
 ---
