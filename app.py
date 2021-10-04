@@ -8,7 +8,7 @@ from flask import Flask, redirect, render_template, request, jsonify, json
 from countryinfo import CountryInfo
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="public")
 
 
 @app.route("/")
