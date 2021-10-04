@@ -4,11 +4,11 @@
 # All rights reserved by FayasNoushad
 # License -> https://github.com/FayasNoushad/Country-Info-API/blob/main/LICENSE
 
-from flask import Flask, redirect, request, jsonify, json
+from flask import Flask, redirect, render_template, request, jsonify, json
 from countryinfo import CountryInfo
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="public")
 
 
 @app.route("/")
@@ -16,7 +16,7 @@ def main():
     if request.args.get('query'):
         query = request.args.get('query')
     else:
-        return "Documentation:- <a href='https://github.com/FayasNoushad/Country-Info-API'>Country-Info-API</a>"
+        return render_template("index.html")
     country = CountryInfo(query)
     info = country.info()
     if info is not None:
