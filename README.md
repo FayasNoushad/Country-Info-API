@@ -1,9 +1,3 @@
-# Country-Info-API
-
-A country information finder application programming interface ( API )
-
----
-
 ```
 Made with Python3
 (C) @FayasNoushad
@@ -35,3 +29,5 @@ https://country.api.fayas.me/?query=<country-name>
 ## Credits
 
 - [Fayas Noushad](https://github.com/FayasNoushad)
+
+---
