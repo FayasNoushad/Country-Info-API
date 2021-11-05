@@ -10,7 +10,7 @@ License -> https://github.com/FayasNoushad/Country-Info-API/blob/main/LICENSE
 ## Deploy
 
 ```sh
-git clone https://github.com/FayasNoushad/Country-Info-API/tree/main
+git clone https://github.com/FayasNoushad/Country-Info-API.git
 cd Country-Info-API
 pip3 install -r requirements.txt
 python3 app.py
