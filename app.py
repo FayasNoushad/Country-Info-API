@@ -20,7 +20,6 @@ def main():
     country = CountryInfo(query)
     info = country.info()
     if info is not None:
-        info["google"] = "https://www.google.com/search?q=" + info["name"].replace(" ", "+")
         return jsonify(info)
     else:
         return "Something wrong"
