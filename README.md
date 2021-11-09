@@ -18,14 +18,6 @@ python3 app.py
 
 ---
 
-## Usage
-
-```
-https://country.api.fayas.me/?query=<country-name>
-```
-
----
-
 ## Credits
 
 - [Fayas Noushad](https://github.com/FayasNoushad)
