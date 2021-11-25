@@ -1,5 +1,5 @@
 ## Usage
 
 ```
-https://country.api.fayas.me/?query=<country-name>
+https://country-info-api.vercel.app/?query=<country-name>
 ```
