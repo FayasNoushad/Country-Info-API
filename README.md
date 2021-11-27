@@ -1,5 +1,5 @@
 # Country Info API
-A country information finder application programming interface
+A country information finder api
 
 ## Project Links
 
